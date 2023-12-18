@@ -1,0 +1,106 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+.coupon_detail{
+    padding: 16px;
+}
+.coupon_detail .coupon_info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.coupon_detail .coupon_info .left {
+    flex: 1;
+    margin-right: 16px;
+    border-right: 1px dashed #ddd;
+    position: relative;
+    padding: 16px;
+}
+
+.coupon_detail .coupon_info .left  .left_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #303133;
+    font-size: 14px;
+}
+
+.coupon_detail .coupon_info .left  .left_top span{
+    font-size: 37px;
+    font-weight: bold;
+    color: rgb(55, 68, 134);
+}
+.coupon_detail .coupon_info .left  .left_top .top_info{
+    margin-left: 16px;
+}
+.coupon_detail .coupon_info .left  .left_top .top_info div:first-child{
+    font-size: 21px;
+}
+.coupon_detail .coupon_info .left  .left_top .top_info div:last-child{
+    font-size: 13px;
+}
+
+.coupon_detail .coupon_info .left .left_tips{
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #f4f6f8;
+    margin-top: 16px;
+}
+
+.coupon_detail .coupon_info .left .left_tips span{
+    font-weight: 700;
+}
+
+.coupon_detail .coupon_info .receive{
+    font-size: 14px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #f7f7f7;
+    width: 90px;
+}
+
+.coupon_detail .coupon_info .receive .receive_btn{
+    color: rgba(0,0,0,.3);
+    background-color: #f7f7f7;
+    display: inline-flex;
+    width: auto;
+    font-size: 11px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+.coupon_detail .coupon_prompt{
+    background-color: #fff;
+    padding: 16px;
+    margin-top:16px;
+}
+
+.coupon_detail .coupon_prompt .prompt_title{
+    font-weight: 700;
+}
+
+.coupon_detail .coupon_prompt div{
+    margin-top:5px;
+}
+
+.coupon_detail .coupon_prompt span{
+    margin-right: 5px;
+}

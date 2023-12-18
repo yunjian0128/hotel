@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es5", // 设置编译目标为 ES5
+        "lib": ["dom", "dom.iterable", "esnext"], // 引入的库
+        "allowJs": true, // 允许编译 JavaScript 文件
+        "skipLibCheck": true, // 跳过库的类型检查
+        "esModuleInterop": true, // 启用 ES 模块的互操作性
+        "allowSyntheticDefaultImports": true, // 允许合成默认导入
+        "strict": true, // 启用严格模式
+        "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致
+        "noFallthroughCasesInSwitch": true, // 在 switch 语句中禁止 case 穿透
+        "module": "esnext", // 指定模块系统为 ES 模块
+        "moduleResolution": "node", // 指定模块解析策略为 Node.js
+        "resolveJsonModule": true, // 允许导入 JSON 模块
+        "isolatedModules": true, // 将每个文件视为独立的模块
+        "noEmit": true, // 不生成输出文件
+        "jsx": "react-jsx", // 指定 JSX 的转换方式为 React
+        "types": ["node", "webpack-env"] // 引入的类型声明文件
+    },
+    "include": ["src"], // 包含的文件或目录
+    "extends": "./paths.json", // 继承的配置文件
+    "exclude": ["node_modules", "dist", "build"] // 排除的文件或目录
+}

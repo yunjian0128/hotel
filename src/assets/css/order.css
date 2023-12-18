@@ -1,0 +1,203 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+
+.order_tabs {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.order_tabs li {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    transition-duration: 0.5s;
+    padding: 0px 16px;
+    flex: 1 1 auto;
+    width: 96px;
+    color: rgb(48, 49, 51);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.order_tabs .active {
+    color: rgb(55, 68, 134);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(55, 68, 134);
+}
+
+.order_list .item {
+    padding: 16px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.order_list .item .item_top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.order_list .item .item_top p {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.order_list .item .top_tag {
+    border-radius: 53px;
+    background-color: #fef0f0;
+    color: #fa3534;
+    border: 1px solid #fab6b6;
+    font-size: 11px;
+    padding: 6px 11px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.order_list .item .item_swipers {
+    height: 186px;
+    background-color: rgb(243, 244, 246);
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+.order_list .item .item_swipers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order_list .item .house {
+    position: relative;
+}
+
+.order_list .item .item_times {
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_list .item .item_times .item_right {
+    width: 40px;
+    height: 14px;
+}
+
+.order_list .item .item_times .item_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order_list .item .item_times .item_pay {
+    font-size: 12px;
+}
+
+.order_list .item .item_times .item_price {
+    font-weight: 700;
+}
+
+.order_list .item .item_bar {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.order_list .item .item_bar .item_cancel {
+    color: #606266;
+    background-color: #fff;
+    overflow: visible;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 21px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all .15s;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 29px;
+    border: 1px solid #c0c4cc;
+    margin-left: 15px;
+}
+
+.order_list .item .item_bar .item_comfig {
+    background-color: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 21px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all .15s;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 29px;
+    border: none;
+    margin-left: 15px;
+}
+
+.order_list .item .item_bar .item_rate {
+    border-color: #f90;
+    background-color: #f90;
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 21px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all .15s;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 29px;
+    /* border: 1px solid #f90; */
+    border: none;
+}
+
+.order_list .item .item_bar .item_rate a {
+    color: rgb(255, 255, 255);
+}

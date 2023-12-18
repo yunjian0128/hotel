@@ -1,0 +1,10 @@
+.area-picker-popup .adm-popup-body {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+}
+
+.area-picker-popup .popup-hd {
+  padding: 4px;
+  border-bottom: 1px solid #eee;
+}

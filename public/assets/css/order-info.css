@@ -1,0 +1,129 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+
+.order_info .info_title {
+    background-color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+.order_info .info_title h3 {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1;
+}
+
+.order_info .info_title p {
+    padding: 16px 0;
+}
+
+.order_info .info_title .info_rate {
+    border-color: #f90;
+    background-color: #f90;
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 42px;
+    border: none;
+}
+
+.order_info .info_content,
+.order_info .info_footer {
+    background-color: #fff;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.order_info .info_content .content_title,
+.order_info .info_footer .content_title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.order_info .info_content .content_item {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #303133;
+    font-size: 14px;
+}
+
+.order_info .info_content .content_item:first-child {
+    margin-top: 16px;
+}
+
+.order_info .info_content .content_item p {
+    color: #909399;
+}
+
+.order_info .info_content .content_item .content_price {
+    color: #fa3534;
+    font-weight: 700;
+}
+
+.order_info .info_footer .detail {
+    margin-top: 16px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #303133;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.order_info .info_footer .detail .thumb {
+    width: 80px;
+    height: 53px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.order_info .info_footer .detail .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.order_info .info_footer .detail .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 16px;
+}
+
+.order_info .info_footer .detail .right p {
+    font-weight: 700;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.order_info .info_footer .detail .right .tips {
+    color: #909399;
+}

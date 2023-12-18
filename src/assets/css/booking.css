@@ -1,0 +1,116 @@
+body{
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+
+.pay_skeleton .tips{
+    background-color: #fff;
+    padding: 16px;
+    margin-bottom:16px;
+}
+
+.pay_skeleton .tips span:last-child{
+    color: #909399;
+}
+
+.pay_skeleton .detail{
+    background-color: #fff;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #f4f6f8;
+}
+
+.pay_skeleton .detail .thumb{
+    width: 106px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.pay_skeleton .detail .thumb img{
+    width: 100%;
+    height: 100%;
+}
+
+.pay_skeleton .detail .right{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 68vw;
+    margin-left: 10px;
+}
+
+.pay_skeleton .detail .right p{
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.pay_skeleton .detail .right .detail_tips{
+   color: #909399;
+}
+
+.pay_skeleton .detail .right .detail_price{
+    color: #fa3534;
+}
+.pay_skeleton .pay_amount{
+    background-color: #fff;
+    padding: 16px;
+    text-align: right;
+}
+
+.pay_skeleton .pay_amount span:last-child{
+    color: #fa3534;
+}
+.pay_payment {
+    background-color: #fff;
+    margin-top: 16px;
+}
+
+.pay_payment .pay_amount{
+    padding: 16px 17px 5px 17px;
+    font-size: 16px;
+    text-align: left;
+    color: #909399;
+    border: 1px solid #f4f6f8;
+}
+
+.pay_payment_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px 42px;
+    z-index: 1999;
+    background-color: #fff;
+}
+
+.pay_payment_footer .pay_button{
+    background-color: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 53px;
+    cursor: pointer;
+    padding: 0 21px;
+    text-align: center;
+    width: 100%;
+}

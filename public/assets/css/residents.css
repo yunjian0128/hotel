@@ -1,0 +1,120 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+
+.residents .resid_item{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #f4f6f8;
+    background-color: white;
+}
+.residents .resid_item .checkbox input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 20px;
+    border: 1px solid #c8c9cc;
+}
+
+.residents .resid_item  .item_label{
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-right: 12px;
+    color: #606266;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.residents .resid_item  .item_label div{
+    line-height: 1.8;
+}
+
+.residents .resid_item .item_label div:last-child{
+    color: #909399;
+}
+
+.residents_title{
+    margin-top: 16px;
+    text-align: center;
+    color: rgb(96, 98, 102);
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 16px;
+}
+
+.residents_bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+    display: flex;
+    padding: 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.residents_bar .resid_default{
+    background-color: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 21px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all .15s;
+    border-radius: 53px;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    border: none;
+    margin-right: 10px;
+    width: 180px;
+}
+
+
+.residents_bar .resid_add{
+    border-color: #f90;
+    background-color: #f90;
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    line-height: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 21px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all .15s;
+    border-radius: 53px;
+    font-size: 16px;
+    height: 42px;
+    line-height: 42px;
+    border: none;
+    margin-right: 10px;
+    width: 180px;
+}

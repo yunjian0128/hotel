@@ -1,0 +1,106 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+.collectlist{
+    border-radius: 5px;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.collectlist .item{
+    background-color: #fff;
+    margin-bottom: 16px;
+    position: relative;
+}
+.collectlist .item a{
+    display: block;
+}
+
+.collectlist .item .collect{
+    background: rgba(0,0,0,.2);
+    border-radius: 106px;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    padding: 5px;
+    z-index: 99;
+}
+
+.collectlist .item .collect img{
+    width: 31px;
+    height: 31px;
+}
+
+.collectlist .item .images{
+    position: relative;
+}
+
+.collectlist .item .images .swipers{
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    height: 213px;
+    transform: translateY(0)
+}
+
+.collectlist .item .images .swipers img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collectlist .item .images .title{
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px 5px;
+    background: rgba(0,0,0,.4);
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.collectlist .item  .item_bot{
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collectlist .item .item_bot  .font{
+    font-size:18px;
+}
+
+.collectlist .item  .item_bot .font .price{
+    font-weight: 700;
+    color: #fa3534;
+}
+
+.collectlist .item  .item_bot .font .market_price{
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #909399;
+    font-size: 12px;
+}
+
+.collectlist .item  .item_bot .item_tips{
+    color: #909399;
+}

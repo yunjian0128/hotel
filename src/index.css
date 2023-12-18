@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box !important;
+}
+
+.adm-nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #1296db;
+    color: #fff;
+}

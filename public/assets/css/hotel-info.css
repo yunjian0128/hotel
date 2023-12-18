@@ -1,0 +1,82 @@
+body {
+    background-color: #f4f6f8;
+    color: #303133;
+    font-size: 14px;
+}
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+.swiper {
+    width: 100%;
+    height: 213px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hotelinfo{
+    padding: 16px;
+    background-color:white;
+}
+.hotelinfo .hotelinfo_title{
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.hotelinfo .map{
+    width: 100%;
+    height: 30vh;
+    margin-top: 16px;
+}
+.hotelinfo .hotelinfo_address{
+    color: #909399;
+    font-size: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #f4f6f8;
+
+}
+
+.hotelinfo .hotelinfo_desc{
+    border-bottom: 1px solid #f4f6f8;
+
+}
+
+.hotelinfo .hotelinfo_desc .desc_title{
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.hotelinfo .hotelinfo_desc div:last-child{
+    padding-top: 8px;
+    padding-bottom: 16px;
+}

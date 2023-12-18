@@ -1,0 +1,204 @@
+body {
+    background-color: #f4f6f8;
+}
+
+.top {
+    z-index: 10907;
+    background: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 44px;
+    text-align: center;
+    height: 44px;
+}
+
+.skeleton .detail {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #303133;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.skeleton .detail .thumb {
+    width: 80px;
+    height: 74px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skeleton .detail .thumb img {
+    width: 100%;
+    height: 100%;
+}
+
+.skeleton .detail .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 69px;
+    width: 65vw;
+    padding-left: 16px;
+}
+
+.skeleton .detail .right p {
+    font-weight: 700;
+    overflow: hidden;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.skeleton .detail .right .tips {
+    color: #909399;
+}
+
+.skeleton .skeleton_rect {
+    background-color: #fff;
+    margin: 16px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: #303133;
+}
+
+.skeleton .skeleton_rect .item {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #303133;
+    box-sizing: border-box;
+    line-height: 37px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skeleton .skeleton_rect .item label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-start;
+    font-size: 15px;
+    margin-left: 2px;
+}
+
+.skeleton .skeleton_rect .item .item_right {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    color: #303133;
+    flex: 1;
+    min-height: 37px;
+    border: none;
+}
+
+.skeleton .skeleton_rect .item .btn {
+    display: inline-flex;
+    width: auto;
+    font-size: 11px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    background-color: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    border-radius: 5px;
+}
+
+.skeleton .skeleton_rect .item .btn a {
+    color: rgb(255, 255, 255);
+}
+
+.skeleton .skeleton_price {
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+    font-size: 14px;
+    color: #303133;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skeleton .skeleton_price .tips {
+    color: #909399;
+    font-size: 15px;
+}
+
+.skeleton .skeleton_price .prices {
+    font-weight: 700;
+    color: #fa3534;
+    font-size: 18px;
+}
+
+.skeleton .skeleton_price .prices span {
+    display: block
+}
+
+.skeleton .skeleton_price .prices span:last-child {
+    color: #909399;
+    font-size: 12px;
+    text-align: center;
+}
+
+.comfirm_foot-bar {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px 7px;
+    border-top: 0.5px solid #f4f6f8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comfirm_foot-bar .text span:first-child {
+    color: #909399;
+    font-size: 14px;
+}
+
+.comfirm_foot-bar .text span:last-child {
+    color: #fa3534;
+    font-size: 18px;
+}
+
+.comfirm_foot-bar .btns {
+    display: inline-flex;
+    width: auto;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 41px;
+    background-color: rgb(55, 68, 134);
+    color: rgb(255, 255, 255);
+    overflow: visible;
+    border-radius: 5px;
+}
+
+.comfirm_foot-bar .btns a {
+    color: rgb(255, 255, 255);
+}
+
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    border-color: rgb(55, 68, 134);
+    background-color: rgb(55, 68, 134);
+}
